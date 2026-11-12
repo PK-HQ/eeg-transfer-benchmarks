@@ -1,0 +1,27 @@
+/.venv/
+/data/
+__pycache__/
+/.pytest_cache/
+/.env
+/.env.*
+/output/
+/tmp/
+
+# Local planning and historical reports with links to excluded artifacts.
+/PORTFOLIO_AUDIT.md
+/UNIFIED_V1_HANDOFF_REQUEST.md
+/cohort_report.md
+/digit_report.md
+
+# Allow only the selected cohort evidence by default.
+/results/**
+!/results/clinical_cohort/
+!/results/clinical_cohort/calibration.png
+!/results/clinical_cohort/features.png
+!/results/clinical_cohort/paired_summary.csv
+!/results/digit_cohort/
+!/results/digit_cohort/performance.png
+!/results/digit_cohort/confusion.png
+!/results/digit_cohort/confusion.json
+!/results/digit_cohort/erd.png
+!/results/digit_cohort/summary.csv
